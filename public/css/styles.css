@@ -282,3 +282,17 @@ footer div.piepagina{
     display: flex;
     flex-direction: column;
 }
+
+.fas.fa-truck{
+    display: flex;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: relative;
+right: 10px;
+top: -15px;
+}
