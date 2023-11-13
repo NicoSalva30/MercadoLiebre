@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    width: auto;
 }
 
 body{
@@ -13,11 +14,18 @@ h3{
     font-size: 24px;
 }
 
+h4{
+    text-align: center;
+}
+
 p{
     font-size: 12px;
 }
 div.top-header{
+    display: flex;
+    flex-direction: column;
     padding: 5%;
+    align-items: center;
 }
 
 header{
@@ -25,12 +33,12 @@ header{
 }
 
 header div.logo{
+    display: flex;
     width: 50%;
+    padding: 10px;
+    left: 100px;
 }
 
-header div.logo{
-    padding: 10px;
-}
 header nav{
     font-size: 12px;
 }
@@ -103,10 +111,6 @@ article div.main-article{
 
 section.banner img{
     width: 100%;
-}
-
-main{
-    width: 90%;
 }
 
 main section article{
@@ -261,8 +265,8 @@ input {
     margin-bottom: 5px;
     
 }
-button{
-    width: 25%;
+div .form button{
+    width: 30%;
     margin-top: 5px;
     background-color: #0044AA;
     color: #FFF;
@@ -278,7 +282,3 @@ footer div.piepagina{
     display: flex;
     flex-direction: column;
 }
-
-
-
-
